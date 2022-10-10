@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+*{
+    font-family: 'Poppins';
+}
+
+
+.copy-senha input {
+    width: calc(100% + 42px);
+    border-radius: 5px 0 0 5px;
+}
+.copy-senha button {
+    border-radius: 0 5px 5px 0;
+}
+.senha-indicador {
+    height: 5px;
+    background: rgb(63, 151, 22);
+    border-radius: 10px;
+}
+.card-header,
+.card-footer {
+    background: rgb(170, 87, 238);
+}
+
+#span {
+    font-size: 12px;
+    float: right;
+}
+.btn_senha:hover {
+    background: rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+}
+.btn_copy, .btn_copy i{
+    border-color:rgb(170, 87, 238) !important ;
+    color: rgb(170, 87, 238) ;
+}
+.btn_copy:hover{
+    background-color: rgb(170, 87, 238) !important;
+    color: #f1f1f1;
+}
+
+input{
+    outline-color: rgb(97, 39, 145) !important;
+}
+input:checked {
+    background-color: rgb(170, 87, 238) !important;
+    border-color: rgb(170, 87, 238) !important ;
+}
+#tamanhoSenha::-webkit-slider-thumb {
+    background: rgb(170, 87, 238) !important;
+}
+#caixabaixa:first-child{
+    pointer-events: none;
+}
+.copy-senha input{
+    letter-spacing: 1.4px;
+}
+
+.senha-indicador{
+    transition: width 0.3s ease;
+    display: flex;
+}
+
